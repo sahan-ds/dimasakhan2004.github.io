@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.ul-iteems {
+   
+    padding-left: 230px;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+    list-style-type: none;
+    text-decoration: none;
+    ;
+}
+  
+
+.ul {
+    display: flex;
+    margin-bottom: 0px;
+
+}
+
+a {
+    color:black;
+    text-decoration: none; 
+   }
+   a:visited {
+    color: #800080; 
+   } 
+   a:hover {
+    color:lightskyblue; 
+    text-decoration: underline; 
+   }
+
+   .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+p{
+    display: flex;
+    
+    margin-top: 10px;
+    font-size: 16px;
+    color: darkkhaki;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+
+.blocks{overflow: hidden;}
+.blocks li{width: 46%; float:left; padding: 10%;}
+.blocks li span{display: block; padding: 10px 0 0 0;}
+
+.blocks{
+    padding: 35px;
+    width: 700px;
+    
+    margin-left: 85px;
+   
+}
+
+li{
+    align-items: center;
+}
+
+
+
+.button{
+    text-decoration:none; 
+    text-align:center; 
+    padding:18px 26px; 
+    border:none; 
+    -webkit-border-radius:px px 0px 0px; 	 				 border-radius: px px 0px 0px; 					-moz-border-radius-topleft:px; 					-moz-border-radius-topright:px; 					-moz-border-radius-bottomleft:0px; 					-moz-border-radius-bottomright:0px;  
+    font:17px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#000000; 
+    background-color:#ffffff; 
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #cff3ff 100%); 
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #cff3ff 100%); 
+    background-image: -o-linear-gradient(top, #ffffff 0%, #cff3ff 100%); 
+    background-image: -ms-linear-gradient(top, #ffffff 0% ,#cff3ff 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cff3ff', endColorstr='#cff3ff',GradientType=0 ); 
+    background-image: linear-gradient(top, #ffffff 0% ,#cff3ff 100%);   
+    -webkit-box-shadow:-1px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: -1px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+    box-shadow:-1px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+     
+    text-shadow: 3px 0px 12px #ffffff; 
+    filter: dropshadow(color=#ffffff, offx=3, offy=0); }
+
+    .class{
+        text-align:center;
+    }
+
+
+
+    @media (max-width: 576px){
+        .li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+    }
+    
